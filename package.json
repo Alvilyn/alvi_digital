@@ -4,7 +4,9 @@
   "description": "Nuestro primer proyecto de node.js",
   "main": "index.html",
   "scripts": {
+  	"dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
+ 
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,8 @@
   },
   "author": "Alvilyn Lowe",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Alvilyn_lowe/alvi_digital#readme"
+  "homepage": "https://bitbucket.org/Alvilyn_lowe/alvi_digital#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
