@@ -1,11 +1,9 @@
 .jumbotron {
-	background-color: turquoise;
+	background-color: #008b74;
 	color: black;
-
 }
 
 .footer {
-		padding: 10px 10px 0 10px;
-		background-color: turquoise;
-		margin-bottom: 0px;
+	background-color: #00C9A7;
+	color: black;
 }
