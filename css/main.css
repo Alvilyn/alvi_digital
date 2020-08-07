@@ -4,6 +4,9 @@
 }
 
 .footer {
-	background-color: #00C9A7;
+	padding: 10px 10px 0 10px;
+	background-color: #C4FCEF;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	color: black;
 }
