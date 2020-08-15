@@ -14,15 +14,19 @@
 
 .card-content {
 	Flex: 1 250px;
-	padding: 2px 5px 2px 5px;
 	margin-top: 10px;
 }
 
 .btn-mas {
 	width: 100%;
+	border-radius: 0px;
 
 }
 
 .footer-address-icon {
 	padding-right: 10px;
+}
+
+.card-subtitle {
+	margin-top: 10px;
 }
