@@ -15,6 +15,7 @@
 .card-content {
 	Flex: 1 250px;
 	margin-top: 10px;
+	margin: 10px;
 }
 
 .btn-mas {
@@ -30,3 +31,8 @@
 .card-subtitle {
 	margin-top: 10px;
 }
+
+.breadcrumb {
+	margin-top: 20px;
+}
+
