@@ -267,21 +267,87 @@
         </hr>
 
         <div class="tab-pane fade" id="pills-masrecursos" role="tabpanel" aria-labelledby="pills-masrecursos-tab">
-          <div class="d-flex justify-content-center">
-            <div class="card" style="width: 25rem;">
-              <div class="card-header" style="background-color: #008b74; color: white;">
-                <h5>Otros recursos de interés</h5>            
+          <div class="accordion" id="accordionMasrecursos">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsePacks" aria-expanded="true" aria-controls="collapsePacks">
+                    Packs
+                  </button>
+                </h5>
               </div>
 
-              <ul class="list-group-flush">
-                <li class="list-group-item">Packs</li>
-                <li class="list-group-item">Workbooks</li>
-                <li class="list-group-item">Tutoriales</li>
-                <li class="list-group-item">Ebooks</li>
-                <li class="list-group-item">Infografías</li>
-              </ul>            
+              <div id="collapsePacks" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionMasrecursos">
+                <div class="card-body">
+                  Explora los diferentes Packs de acción que te ayudarán a potenciar diferentes aspectos de los contenidos de tu marca.
+                </div>
+              </div>
             </div>
-          </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseWorkbooks" aria-expanded="false" aria-controls="collapseWorkbooks">
+                    Workbooks
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseWorkbooks" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionMasrecursos">
+                <div class="card-body">
+                  Para ayudarte paso a paso en tus tareas para estar al día con cada aspecto de la producción de tus contenidos, dejamos para ti estos workbooks con ejercicios y ejemplos, que luego de repetir varias veces harás como todo un profesional sin necesidad de consultarlos nuevamente.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTutoriales" aria-expanded="false" aria-controls="collapseTutoriales">
+                    Tutoriales
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseTutoriales" class="collapse" aria-labelledby="headingThree" data-parent="#accordionMasrecursos">
+                <div class="card-body">
+                  Te explicamos paso a paso el manejo de herramientas y la elaboración de contenidos de los cuáles te preguntas cómo hicieron sus creadores parar lograrlos.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEbooks" aria-expanded="false" aria-controls="collapseEbooks">
+                    Ebooks
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseEbooks" class="collapse" aria-labelledby="headingFour" data-parent="#accordionMasrecursos">
+                <div class="card-body">
+                  Tenemos libros para que descargues a tus colecciones y puedas consultarlos cuando necesites. En ellos dejamos nuestros secretos para hacer el trabajo de contenidos más fácil y productivo.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseInfografias" aria-expanded="false" aria-controls="collapseInfografias">
+                    Infografías
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseInfografias" class="collapse" aria-labelledby="headingFive" data-parent="#accordionMasrecursos">
+                <div class="card-body">
+                  En ellas encontrarás de manera muy resumida como realizar múltiples procesos de la creación de contenidos. Te mostramos gráficamente datos que explican el impacto de los contenidos en el crecimiento de tu marca.
+                </div>
+              </div>
+            </div>
+
         </div>
 
         <div class="tab-pane fade" id="pills-comentarios" role="tabpanel" aria-labelledby="pills-comentarios-tab">
