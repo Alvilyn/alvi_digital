@@ -43,3 +43,15 @@
 .table-responsive {
 	padding-top: 15px;
 }
+
+.title {
+	color: white;
+	background-color: black;
+	margin: 10px;
+}
+
+.span.tooltip {
+ 	border-bottom: 1px dashed gray;
+ 	cursor: pointer;
+ 	position:relative;
+}
