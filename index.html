@@ -186,7 +186,7 @@
           </div>
           <div class="card-body">
             <p>Si necesitas que creemos y desarrollemos para ti, líneas específicas de contenido, podemos trabajar en ello de forma particular. Solo tienes que darnos las especificaciones de lo que necesitas. Este servicio es más para quienes ya están trabajando en creación de contenido y necesitan delegar un poco de trabajo para tener sus proyectos listos a tiempo. Recuerda que crear contenidos es una labor que pide de nosotros invertir más tiempo.</p>
-            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#loQuiero">
+            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#loQuiero" id="loQuieroBtn">
               Lo quiero
             </button>
           </div>
@@ -273,6 +273,30 @@
         $('.carousel').carousel({
             interval: 2000
         });
+
+        $('#loQuiero').on('show.bs.modal', function (e){
+            console.log('el modal Lo quiero se está mostrando');
+
+            $('#loQuieroBtn').removeClass('btn-outline-success');
+            $('#loQuieroBtn').addClass('btn-primary');
+            $('#loQuieroBtn').prop('disabled', true);
+
+        });
+        $('#loQuiero').on('shown.bs.modal', function (e){
+            console.log('el modal Lo quiero se mostró');
+        });
+        $('#loQuiero').on('hide.bs.modal', function (e){
+            console.log('el modal Lo quiero se oculta');
+        });
+        $('#loQuiero').on('hidden.bs.modal', function (e){
+            console.log('el modal Lo quiero se ocultó');
+
+            $('#loQuieroBtn').prop('disabled', false);
+            $('#loQuieroBtn').removeClass('btn-primary');
+            $('#loQuieroBtn').addClass('btn-outline-success');
+
+        });
+
       });
     </script>
   </body>
