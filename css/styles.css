@@ -1,19 +1,20 @@
 .jumbotron {
-  background-color: #008b74;
+  background-color: #00C9A7;
   color: black;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 0px; }
 
 .footer {
   padding: 10px 10px 0 10px;
-  background-color: #008b74;
-  margin-bottom: 10px;
+  background-color: #C4FCEF;
   margin-top: 10px;
+  margin-bottom: 0px;
   color: black; }
 
 .card-content {
   Flex: 1 250px;
   margin-top: 10px;
-  margin: 10px; }
+  margin-bottom: 0px; }
 
 .btn-mas {
   width: 100%;
@@ -23,10 +24,24 @@
   padding-right: 10px; }
 
 .card-subtitle {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 0px; }
 
 .breadcrumb {
-  margin-top: 20px; }
+  margin-top: 10px;
+  margin-bottom: 0px; }
 
 .tab-content {
   padding-top: 10px; }
+
+.title {
+  color: #800080;
+  font-style: raleway; }
+
+.subtitle {
+  color: #005A3A;
+  font-style: raleway; }
+
+.text {
+  color: #333333;
+  font-style: roboto; }
