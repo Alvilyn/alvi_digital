@@ -4,6 +4,7 @@ $color-primarydark: #800080;
 $color-secondary: #00C9A7;
 $color-secondarylight: #C4FCEF;
 $color-secondarydark: #005A3A;
+$color-backgrounddark: #E8F3F1;
 $color-bottom: #E47738;
 $color-text: #333333;
 $font-style: raleway;
@@ -12,6 +13,11 @@ $font-styletext: roboto;
 @mixin margenes($top, $bottom){
 	margin-top: $top;
 	margin-bottom: $bottom;
+}
+
+@mixin cardtitle($color-backgrounddark, $color-secondarydark){
+	color: $color-secondarydark;
+	background-color: $color-backgrounddark;
 }
 
 .jumbotron {
@@ -32,6 +38,11 @@ $font-styletext: roboto;
 	@include margenes(10px, 0px);
 }
 
+.card-header {
+	@include margenes(0px, 0px);
+	@include cardtitle($color-backgrounddark, $color-secondarydark);
+}
+
 .btn-mas {
 	width: 100%;
 	border-radius: 0px; 
@@ -46,7 +57,8 @@ $font-styletext: roboto;
 }
 
 .breadcrumb {
-	@include margenes(10px, 0px);
+	@include margenes(10px, 10px);
+	margin: 10px;
 }
 
 .tab-content {
@@ -54,7 +66,7 @@ $font-styletext: roboto;
 }
 
 .title {
-	color: $color-primarydark;
+	color: $color-secondarydark;
 	font-style: $font-style;
 }
 
