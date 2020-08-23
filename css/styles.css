@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #00C9A7;
+  background-color: #fcba03;
   color: black;
   margin-top: 50px;
   margin-bottom: 0px; }
@@ -16,6 +16,12 @@
   margin-top: 10px;
   margin-bottom: 0px; }
 
+.card-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #005A3A;
+  background-color: #E8F3F1; }
+
 .btn-mas {
   width: 100%;
   border-radius: 0px; }
@@ -29,13 +35,14 @@
 
 .breadcrumb {
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 10px;
+  margin: 10px; }
 
 .tab-content {
   padding-top: 10px; }
 
 .title {
-  color: #800080;
+  color: #005A3A;
   font-style: raleway; }
 
 .subtitle {

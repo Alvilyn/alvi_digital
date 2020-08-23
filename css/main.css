@@ -50,8 +50,3 @@
 	margin: 10px;
 }
 
-.span.tooltip {
- 	border-bottom: 1px dashed gray;
- 	cursor: pointer;
- 	position:relative;
-}
